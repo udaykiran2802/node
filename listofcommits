@@ -1,0 +1,362 @@
+* [fe219e0438] - bootstrap: do not generate code cache in an unfinalized isolate (Joyee Cheung) https://github.com/nodejs/node/pull/49108
+* [4c3db74a39] - doc: add rluvaton to collaborators (Raz Luvaton) https://github.com/nodejs/node/pull/49215
+* [769823e57c] - src: add built-in `.env` file support (Yagiz Nizipli) https://github.com/nodejs/node/pull/48890
+* [6bb400f8ec] - (SEMVER-MINOR) lib: add api to detect whether source-maps are enabled (翠 / green) https://github.com/nodejs/node/pull/46391
+* [b4a2be457c] - vm: store MicrotaskQueue in ContextifyContext directly (Joyee Cheung) https://github.com/nodejs/node/pull/48982
+* [c9b1d6c84b] - deps: update simdutf to 3.2.17 (Node.js GitHub Bot) https://github.com/nodejs/node/pull/49019
+* [e2d666d269] - tools: fix github reporter appended multiple times (Moshe Atlow) https://github.com/nodejs/node/pull/49199
+* [a49bc4bcda] - src: remove C++ WeakReference implementation (Joyee Cheung) https://github.com/nodejs/node/pull/49053
+* [8dcce52c33] - lib: implement WeakReference on top of JS WeakRef (Joyee Cheung) https://github.com/nodejs/node/pull/49053
+* [c64c9149ad] - test: make WeakReference tests robust (Joyee Cheung) https://github.com/nodejs/node/pull/49053
+* [556e95ad8f] - test: add test for effect of UV_THREADPOOL_SIZE (Tobias Nießen) https://github.com/nodejs/node/pull/49165
+* [a3f12e4a7e] - test: use expectSyncExit{WithErrors} in snapshot tests (Joyee Cheung) https://github.com/nodejs/node/pull/49020
+* [034c80126e] - test: add expectSyncExitWithoutError() and expectSyncExit() utils (Joyee Cheung) https://github.com/nodejs/node/pull/49020
+* [6391b3b95d] - src: use per-realm GetBindingData() wherever applicable (Joyee Cheung) https://github.com/nodejs/node/pull/49007
+* [3578bee3e1] - src: add per-realm GetBindingData() method (Joyee Cheung) https://github.com/nodejs/node/pull/49007
+* [3d5e7cd8f0] - report: fix recent coverity warning (Michael Dawson) https://github.com/nodejs/node/pull/48954
+* [b3eb05baa0] - build: fix typo `libray` -> `library` (configure.py) (michalbiesek) https://github.com/nodejs/node/pull/49106
+* [89dd09310e] - src: serialize both BaseObject slots (Joyee Cheung) https://github.com/nodejs/node/pull/48996
+* [9a2e6bca4f] - doc: add print results for examples in `WebStreams` (Jungku Lee) https://github.com/nodejs/node/pull/49143
+* [966e3d3493] - test: use `tmpdir.resolve()` (Livia Medeiros) https://github.com/nodejs/node/pull/49128
+* [e738edce6a] - test: use `tmpdir.resolve()` (Livia Medeiros) https://github.com/nodejs/node/pull/49127
+* [6a68794577] - test: use `tmpdir.resolve()` in fs tests (Livia Medeiros) https://github.com/nodejs/node/pull/49126
+* [74e0ca3f49] - test: use `tmpdir.resolve()` in fs tests (Livia Medeiros) https://github.com/nodejs/node/pull/49125
+* [d6d8a6feda] - tools: update lint-md-dependencies (Node.js GitHub Bot) https://github.com/nodejs/node/pull/49122
+* [115f801ae4] - test: fix assertion message in test_async.c (Tobias Nießen) https://github.com/nodejs/node/pull/49146
+* [1aeb48c975] - test: refactor `test-esm-loader-hooks` for easier debugging (Antoine du Hamel) https://github.com/nodejs/node/pull/49131
+* [9cc7327979] - tools: use spec reporter in actions (Moshe Atlow) https://github.com/nodejs/node/pull/49129
+* [0d6cdb25fe] - tools: use @reporters/github when running in github actions (Moshe Atlow) https://github.com/nodejs/node/pull/49129
+* [8972f9beed] - tools: add @reporters/github to tools (Moshe Atlow) https://github.com/nodejs/node/pull/49129
+* [802c52fb8b] - deps: update googletest to 7e33b6a (Node.js GitHub Bot) https://github.com/nodejs/node/pull/49034
+* [a3b25ebcc2] - tools: update eslint to 8.47.0 (Node.js GitHub Bot) https://github.com/nodejs/node/pull/49124
+* [4b486e5e28] - doc: fix `Type` notation in webstreams (Deokjin Kim) https://github.com/nodejs/node/pull/49121
+* [8aff50413a] - deps: update zlib to 1.2.13.1-motley-526382e (Node.js GitHub Bot) https://github.com/nodejs/node/pull/49033
+* [6476c99ddc] - src: remove duplicated code in `GenerateSingleExecutableBlob()` (Jungku Lee) https://github.com/nodejs/node/pull/49119
+* [b5740756ca] - test_runner: reland run global after() hook earlier (Colin Ihrig) https://github.com/nodejs/node/pull/49116
+* [634eb505a4] - src: refactor vector writing in snapshot builder (Joyee Cheung) https://github.com/nodejs/node/pull/48851
+* [52b3007f89] - doc: fix name of the flag in `initialize()` docs (Antoine du Hamel) https://github.com/nodejs/node/pull/49158
+* [de4553f3d1] - doc: make the NODE_VERSION_IS_RELEASE revert clear (Rafael Gonzaga) https://github.com/nodejs/node/pull/49114
+* [71391987f7] - lib: fix MIME overmatch in data URLs (André Alves) https://github.com/nodejs/node/pull/49104
+* [b5da2f4dad] - esm: fix `globalPreload` warning (Antoine du Hamel) https://github.com/nodejs/node/pull/49069
+* [9fc57006c2] - stream: improve WebStreams performance (Raz Luvaton) https://github.com/nodejs/node/pull/49089
+* [ee8b7f1f18] - esm: unflag import.meta.resolve (Guy Bedford) https://github.com/nodejs/node/pull/49028
+* [3d20582c0f] - module: make CJS load from ESM loader (Antoine du Hamel) https://github.com/nodejs/node/pull/47999
+* [a4928b069b] - test: add `tmpdir.resolve()` (Livia Medeiros) https://github.com/nodejs/node/pull/49079
+* [dde8510e83] - test: document `fixtures.fileURL()` (Livia Medeiros) https://github.com/nodejs/node/pull/49083
+* [569267d048] - esm: import.meta.resolve exact module not found errors should return (Guy Bedford) https://github.com/nodejs/node/pull/49038
+* [82e4ca109e] - src: remove redundant code for uv_handle_type (Jungku Lee) https://github.com/nodejs/node/pull/49061
+* [27cadf5e93] - fs: fix readdir recursive sync & callback (Ethan Arrowood) https://github.com/nodejs/node/pull/48698
+* [8358ce4486] - deps: update undici to 5.23.0 (Node.js GitHub Bot) https://github.com/nodejs/node/pull/49021
+* [c39f04c141] - events: remove weak listener for event target (Raz Luvaton) https://github.com/nodejs/node/pull/48952
+* [32245275b5] - lib: fix to add resolve() before return at Blob.stream()'s source.pull() (bellbind) https://github.com/nodejs/node/pull/48935
+* [87af913b66] - readline: add paste bracket mode (Jakub Jankiewicz) https://github.com/nodejs/node/pull/47150
+* [e68e359aae] - test: reduce flakiness of `test-esm-loader-hooks` (Antoine du Hamel) https://github.com/nodejs/node/pull/49105
+* [e117f16e09] - doc: update process.binding deprecation text (Tobias Nießen) https://github.com/nodejs/node/pull/49086
+* [c00dfc8e33] - doc: update with latest security release (Rafael Gonzaga) https://github.com/nodejs/node/pull/49085
+* [f426cc0c3f] - src: modernize use-equals-default (Jason) https://github.com/nodejs/node/pull/48735
+* [7ffa5d7f0d] - src: avoid string copy in BuiltinLoader::GetBuiltinIds (Yagiz Nizipli) https://github.com/nodejs/node/pull/48721
+* [9497665d19] - doc: add description for `--port` flag of `node inspect` (Michael Bianco) https://github.com/nodejs/node/pull/48785
+* [4e61c22699] - (SEMVER-MINOR) test_runner: expose location of tests (Colin Ihrig) https://github.com/nodejs/node/pull/48975
+* [35f2b42d06] - test: stabilize the inspector-open-dispose test (Chemi Atlow) https://github.com/nodejs/node/pull/49000
+* [dadbdaff64] - test: print instruction for creating missing snapshot in assertSnapshot (Raz Luvaton) https://github.com/nodejs/node/pull/48914
+* [6aafb6fbbb] - esm: protect `ERR_UNSUPPORTED_DIR_IMPORT` against prototype pollution (Antoine du Hamel) https://github.com/nodejs/node/pull/49060
+* [7f2c810814] - src,tools: initialize cppgc (Daryl Haresign) https://github.com/nodejs/node/pull/45704
+* [7bbcb292b2] - test: add `tmpdir.fileURL()` (Livia Medeiros) https://github.com/nodejs/node/pull/49040
+* [54e4f1f5e6] - src: fix callback_queue.h missing header (Jason) https://github.com/nodejs/node/pull/48733
+* [f1b3ade948] - doc: add missing period (Rich Trott) https://github.com/nodejs/node/pull/49094
+* [48c613e5a7] - doc: add ESM examples in http.md (btea) https://github.com/nodejs/node/pull/47763
+* [3868ae0f4f] - permission: ensure to resolve path when calling mkdtemp (RafaelGSS) https://github.com/nodejs-private/node-private/pull/440
+* [1f64147eb6] - permission: handle buffer path on fs calls (RafaelGSS) https://github.com/nodejs-private/node-private/pull/439
+* [4aa0eff787] - policy: disable process.binding() when enabled (Tobias Nießen) https://github.com/nodejs-private/node-private/pull/397
+* [7e97e908c7] - permission: handle fstatfs and add pm supported list (RafaelGSS) https://github.com/nodejs-private/node-private/pull/441
+* [bd7443ad0a] - lib,permission: restrict process.binding when pm is enabled (RafaelGSS) https://github.com/nodejs-private/node-private/pull/438
+* [6432060c7c] - doc: detailed description of keystrokes Ctrl-Y and Meta-Y (Ray) https://github.com/nodejs/node/pull/43529
+* [1cfd61b632] - doc: add "type" to test runner event details (Phil Nash) https://github.com/nodejs/node/pull/49014
+* [e1265cd473] - tools: update lint-md-dependencies to rollup@3.27.2 (Node.js GitHub Bot) https://github.com/nodejs/node/pull/49035
+* [718fc0d011] - doc: reserve 118 for Electron 27 (David Sanders) https://github.com/nodejs/node/pull/49023
+* [cc80513551] - tools: limit the number of auto start CIs (Antoine du Hamel) https://github.com/nodejs/node/pull/49067
+* [aed2b21ac0] - typings: update JSDoc for `cwd` in `child_process` (LiviaMedeiros) https://github.com/nodejs/node/pull/49029
+* [d150316a8e] - doc: clarify use of process.env in worker threads on Windows (Daeyeon Jeong) https://github.com/nodejs/node/pull/49008
+* [107600923d] - doc: remove v14 mention (Rafael Gonzaga) https://github.com/nodejs/node/pull/49005
+* [a973446b91] - test: use `spawn` and `spawnPromisified` instead of `exec` (Antoine du Hamel) https://github.com/nodejs/node/pull/48991
+* [3af7cfe7d4] - test: refactor `test-node-output-errors` (Antoine du Hamel) https://github.com/nodejs/node/pull/48992
+* [a061781da3] - test: use `fixtures.fileURL` when appropriate (Antoine du Hamel) https://github.com/nodejs/node/pull/48990
+* [1353681edf] - test: remove --no-warnings flag in test_runner fixtures (Raz Luvaton) https://github.com/nodejs/node/pull/48989
+* [f214155c26] - meta: bump github/codeql-action from 2.20.1 to 2.21.2 (dependabot[bot]) https://github.com/nodejs/node/pull/48986
+* [f43a38547e] - meta: bump step-security/harden-runner from 2.4.1 to 2.5.0 (dependabot[bot]) https://github.com/nodejs/node/pull/48985
+* [293cc9569d] - meta: bump actions/setup-node from 3.6.0 to 3.7.0 (dependabot[bot]) https://github.com/nodejs/node/pull/48984
+* [6a45055f4f] - meta: bump actions/setup-python from 4.6.1 to 4.7.0 (dependabot[bot]) https://github.com/nodejs/node/pull/48983
+* [6ad8318373] - esm: add `initialize` hook, integrate with `register` (Izaak Schroeder) https://github.com/nodejs/node/pull/48842
+* [5c65565108] - esm: fix typo `parentUrl` -> `parentURL` (Antoine du Hamel) https://github.com/nodejs/node/pull/48999
+* [c58e8fc31f] - test_runner: fix global after not failing the tests (Raz Luvaton) https://github.com/nodejs/node/pull/48913
+* [fb47afc335] - doc: drop github actions check in sec release process (Rafael Gonzaga) https://github.com/nodejs/node/pull/48978
+* [5f2539cd9a] - src: cast v8::Object::GetInternalField() return value to v8::Value (Joyee Cheung) https://github.com/nodejs/node/pull/48943
+* [af4cdcde15] - src: do not pass user input to format string (Antoine du Hamel) https://github.com/nodejs/node/pull/48973
+* [ce958d2d78] - test: validate error code rather than message (Antoine du Hamel) https://github.com/nodejs/node/pull/48972
+* [d396a041f7] - tools: update eslint to 8.46.0 (Node.js GitHub Bot) https://github.com/nodejs/node/pull/48966
+* [f169f791a0] - tools: update lint-md-dependencies to rollup@3.27.0 (Node.js GitHub Bot) https://github.com/nodejs/node/pull/48965
+* [1fea67cbed] - deps: update googletest to c875c4e (Node.js GitHub Bot) https://github.com/nodejs/node/pull/48964
+* [88094bba3c] - test_runner: fix timeout in *Each hook failing further tests (Raz Luvaton) https://github.com/nodejs/node/pull/48925
+* [217abd475f] - test: fix snapshot tests when cwd contains spaces or backslashes (Antoine du Hamel) https://github.com/nodejs/node/pull/48959
+* [eb504c9406] - diagnostics_channel: fix last subscriber removal (Gabriel Schulhof) https://github.com/nodejs/node/pull/48933
+* [97ca9a8961] - test: order `common.mjs` in ASCII order (Antoine du Hamel) https://github.com/nodejs/node/pull/48960
+* [384f5d44a8] - test: fix some assumptions in tests (Antoine du Hamel) https://github.com/nodejs/node/pull/48958
+* [1dcfc65097] - test: improve internal/worker/io.js coverage (Yoshiki Kurihara) https://github.com/nodejs/node/pull/42387
+* [7a33f2b88d] - test_runner: cleanup test timeout abort listener (Raz Luvaton) https://github.com/nodejs/node/pull/48915
+* [a955c534a8] - test_runner: dont set exit code on todo tests (Moshe Atlow) https://github.com/nodejs/node/pull/48929
+* [040865c648] - test_runner: fix todo and only in spec reporter (Moshe Atlow) https://github.com/nodejs/node/pull/48929
+* [bef3942820] - test_runner: unwrap error message in TAP reporter (Colin Ihrig) https://github.com/nodejs/node/pull/48942
+* [d7ed3a4abc] - url: fix `isURL` detection by checking `path` (Zhuo Zhang) https://github.com/nodejs/node/pull/48928
+* [f458e5b573] - benchmark: add benchmarks for the test_runner (Raz Luvaton) https://github.com/nodejs/node/pull/48931
+* [ee391f3781] - test_runner: add `__proto__` null (Raz Luvaton) https://github.com/nodejs/node/pull/48663
+* [42b5711d0b] - test: fix `es-module/test-esm-initialization` (Antoine du Hamel) https://github.com/nodejs/node/pull/48880
+* [8f0f17e1e3] - doc: improved joinDuplicateHeaders definition (Matteo Bianchi) https://github.com/nodejs/node/pull/48859
+* [48345d0f62] - watch: decrease debounce rate (Moshe Atlow) https://github.com/nodejs/node/pull/48926
+* [b814de6d77] - watch: use debounce instead of throttle (Moshe Atlow) https://github.com/nodejs/node/pull/48926
+* [761f5681c8] - doc: fix second parameter name of `events.addAbortListener` (Deokjin Kim) https://github.com/nodejs/node/pull/48922
+* [b907815fbc] - lib,permission: drop repl autocomplete when pm enabled (Rafael Gonzaga) https://github.com/nodejs/node/pull/48920
+* [0da3f61a19] - benchmark: add pm startup benchmark (Rafael Gonzaga) https://github.com/nodejs/node/pull/48905
+* [053511f7ec] - module: ensure successful import returns the same result (Antoine du Hamel) https://github.com/nodejs/node/pull/46662
+* [14e7bd84f1] - src,permission: restrict by default when pm enabled (Rafael Gonzaga) https://github.com/nodejs/node/pull/48907
+* [bcaf198900] - test: reorder test files fixtures for better understanding (Raz Luvaton) https://github.com/nodejs/node/pull/48787
+* [faefe560ef] - src: remove ContextEmbedderIndex::kBindingDataStoreIndex (Joyee Cheung) https://github.com/nodejs/node/pull/48836
+* [857774029c] - doc: add new reporter events to custom reporter examples (Chemi Atlow) https://github.com/nodejs/node/pull/48903
+* [1eae568a76] - fs: mention `URL` in NUL character error message (LiviaMedeiros) https://github.com/nodejs/node/pull/48828
+* [6bef80a50b] - fs: make `mkdtemp` accept buffers and URL (LiviaMedeiros) https://github.com/nodejs/node/pull/48828
+* [6cd678965f] - sea: add support for V8 bytecode-only caching (Darshan Sen) https://github.com/nodejs/node/pull/48191
+* [d246536924] - doc: run license-builder (github-actions[bot]) https://github.com/nodejs/node/pull/48898
+* [c8c1f8a295] - deps: update ada to 2.6.0 (Node.js GitHub Bot) https://github.com/nodejs/node/pull/48896
+* [71165e111a] - doc: change duration to duration_ms on test documentation (Ardi_Nugraha) https://github.com/nodejs/node/pull/48892
+* [36c72c8b2f] - doc: improve requireHostHeader (Guido Penta) https://github.com/nodejs/node/pull/48860
+* [9edea976a1] - tools: update lint-md-dependencies to rollup@3.26.3 (Node.js GitHub Bot) https://github.com/nodejs/node/pull/48888
+* [8490318df8] - http: start connections checking interval on listen (Paolo Insogna) https://github.com/nodejs/node/pull/48611
+* [5cbf73ec9c] - doc: add ver of 18.x where Node-api 9 is supported (Michael Dawson) https://github.com/nodejs/node/pull/48876
+* [a0f3ed8ac4] - test_runner: fix global before not called when no global test exists (Raz Luvaton) https://github.com/nodejs/node/pull/48877
+* [1ceb8c113d] - node-api: avoid macro redefinition (Tobias Nießen) https://github.com/nodejs/node/pull/48879
+* [88ab2e7f21] - permission: move PrintTree into unnamed namespace (Tobias Nießen) https://github.com/nodejs/node/pull/48874
+* [44b8a061df] - test_runner: fix async callback in describe not awaited (Raz Luvaton) https://github.com/nodejs/node/pull/48856
+* [ab834ff861] - deps: upgrade npm to 9.8.1 (npm team) https://github.com/nodejs/node/pull/48838
+* [841b29c49f] - src: use ARES_SUCCESS instead of 0 (Hyunjin Kim) https://github.com/nodejs/node/pull/48834
+* [9c5e272dae] - typings: sync JSDoc with the actual implementation (Hyunjin Kim) https://github.com/nodejs/node/pull/48853
+* [6c08b1fc02] - test_runner: fix test_runner `test:fail` event type (Ethan Arrowood) https://github.com/nodejs/node/pull/48854
+* [b68fa59960] - src: use effective cppgc wrapper id to deduce non-cppgc id (Joyee Cheung) https://github.com/nodejs/node/pull/48660
+* [44027fbca8] - deps: V8: cherry-pick 93275031284c (Joyee Cheung) https://github.com/nodejs/node/pull/48660
+* [3f4c127f92] - doc: include experimental features assessment (Rafael Gonzaga) https://github.com/nodejs/node/pull/48824
+* [24c3d8a1b3] - test_runner: call abort on test finish (Raz Luvaton) https://github.com/nodejs/node/pull/48827
+* [4ee4718857] - src: save the performance milestone time origin in the AliasedArray (Joyee Cheung) https://github.com/nodejs/node/pull/48708
+* [ac34e7561a] - src: support snapshot in single executable applications (Joyee Cheung) https://github.com/nodejs/node/pull/46824
+* [01c8576a24] - deps: update zlib to 1.2.13.1-motley-61dc0bd (Node.js GitHub Bot) https://github.com/nodejs/node/pull/48788
+* [4a2e9bacab] - deps: V8: cherry-pick 9f4b7699f68e (Joyee Cheung) https://github.com/nodejs/node/pull/48830
+* [399dd8e6c4] - deps: V8: cherry-pick c1a54d5ffcd1 (Joyee Cheung) https://github.com/nodejs/node/pull/48830
+* [e7c397739f] - fs: remove redundant `nullCheck` (Livia Medeiros) https://github.com/nodejs/node/pull/48826
+* [ce73e887a3] - src: remove unnecessary temporary creation (Jason) https://github.com/nodejs/node/pull/48734
+* [c301404105] - doc: add new TSC members (Michael Dawson) https://github.com/nodejs/node/pull/48841
+* [a2fc4a383e] - esm: unflag `Module.register` and allow nested loader `import()` (Izaak Schroeder) https://github.com/nodejs/node/pull/48559
+* [38cc538453] - doc: refactor node-api support matrix (Michael Dawson) https://github.com/nodejs/node/pull/48774
+* [567e32bed0] - src: fix nullptr access on realm (Jan Olaf Krems) https://github.com/nodejs/node/pull/48802
+* [77ea1732a1] - doc: declare `path` on example of `async_hooks.executionAsyncId()` (Deokjin Kim) https://github.com/nodejs/node/pull/48556
+* [45ec623de6] - tools: update lint-md-dependencies to @rollup/plugin-commonjs@25.0.3 (Node.js GitHub Bot) https://github.com/nodejs/node/pull/48791
+* [b361ad72ce] - stream: implement ReadableStream.from (Debadree Chatterjee) https://github.com/nodejs/node/pull/48395
+* [8f7c4e9cbf] - tools: update eslint to 8.45.0 (Node.js GitHub Bot) https://github.com/nodejs/node/pull/48793
+* [339eb10619] - src: pass syscall on `fs.readFileSync` fail operation (Yagiz Nizipli) https://github.com/nodejs/node/pull/48815
+* [6515b3ba65] - deps: update nghttp2 to 1.55.1 (Node.js GitHub Bot) https://github.com/nodejs/node/pull/48790
+* [81c2fc47b0] - meta: add mailmap entry for atlowChemi (Chemi Atlow) https://github.com/nodejs/node/pull/48810
+* [566bf5f5bd] - doc: remove the . in the end to reduce confusing (Jason) https://github.com/nodejs/node/pull/48719
+* [7196946d7f] - url: reduce `pathToFileURL` cpp calls (Yagiz Nizipli) https://github.com/nodejs/node/pull/48709
+* [a67cb6c396] - doc: nodejs-social over nodejs/tweet (Rafael Gonzaga) https://github.com/nodejs/node/pull/48769
+* [1cc341c547] - (SEMVER-MINOR) inspector: open add `SymbolDispose` (Chemi Atlow) https://github.com/nodejs/node/pull/48765
+* [a4e4a86d89] - test: skip experimental test with pointer compression (Colin Ihrig) https://github.com/nodejs/node/pull/48738
+* [db56f02ea3] - deps: update googletest to cc36671 (Node.js GitHub Bot) https://github.com/nodejs/node/pull/48789
+* [373848a457] - src: remove OnScopeLeaveImpl's move assignment overload (Jason) https://github.com/nodejs/node/pull/48732
+* [d8eb8cffbb] - src: use string_view for utf-8 string creation (Yagiz Nizipli) https://github.com/nodejs/node/pull/48722
+* [4a26e2d672] - util: use `primordials.ArrayPrototypeIndexOf` instead of mutable method (DaisyDogs07) https://github.com/nodejs/node/pull/48586
+* [5da84a6341] - doc: expand on squashing and rebasing to land a PR (Chengzhong Wu) https://github.com/nodejs/node/pull/48751
+* [1d1a85b17c] - permission: fix data types in PrintTree (Tobias Nießen) https://github.com/nodejs/node/pull/48770
+* [f9737b1b8c] - deps: update nghttp2 to 1.55.0 (Node.js GitHub Bot) https://github.com/nodejs/node/pull/48746
+* [6a889261c8] - child_process: harden against prototype pollution (Livia Medeiros) https://github.com/nodejs/node/pull/48726
+* [1c66b81306] - test: fix flaky test-string-decode.js on x86 (Stefan Stojanovic) https://github.com/nodejs/node/pull/48750
+* [8efdc7d61a] - permission: add debug log when inserting fs nodes (Rafael Gonzaga) https://github.com/nodejs/node/pull/48677
+* [f9fee9a8f4] - doc: add atlowChemi to collaborators (atlowChemi) https://github.com/nodejs/node/pull/48757
+* [b76862df0a] - fs: add a fast-path for readFileSync utf-8 (Yagiz Nizipli) https://github.com/nodejs/node/pull/48658
+* [9053943931] - module: add SourceMap.lineLengths (Isaac Z. Schlueter) https://github.com/nodejs/node/pull/48461
+* [c3468322cf] - deps: update minimatch to 9.0.3 (Node.js GitHub Bot) https://github.com/nodejs/node/pull/48704
+* [8790cfc610] - src: make BaseObject iteration order deterministic (Joyee Cheung) https://github.com/nodejs/node/pull/48702
+* [78e42e46ec] - build: do not pass target toolchain flags to host toolchain (Ivan Trubach) https://github.com/nodejs/node/pull/48597
+* [6a1316dc99] - tools: run fetch_deps.py with Python 3 (Richard Lau) https://github.com/nodejs/node/pull/48729
+* [b34c5a27c6] - stream: fix deadlock when pipeing to full sink (Robert Nagy) https://github.com/nodejs/node/pull/48691
+* [8610be7bc4] - doc: fix ambiguity in http.md and https.md (an5er) https://github.com/nodejs/node/pull/48692
+* [6c8fd6f563] - deps: update acorn to 8.10.0 (Node.js GitHub Bot) https://github.com/nodejs/node/pull/48713
+* [26bfae531f] - test: deflake test-net-throttle (Luigi Pinca) https://github.com/nodejs/node/pull/48599
+* [01233410f7] - test: move test-net-throttle to parallel (Luigi Pinca) https://github.com/nodejs/node/pull/48599
+* [c2c72601af] - bootstrap: use correct descriptor for Symbol.{dispose,asyncDispose} (Jordan Harband) https://github.com/nodejs/node/pull/48703
+* [0e9138d173] - net: server add `asyncDispose` (atlowChemi) https://github.com/nodejs/node/pull/48717
+* [17f6b8c49c] - dgram: socket add `asyncDispose` (atlowChemi) https://github.com/nodejs/node/pull/48717
+* [ccdfb37438] - lib: use addAbortListener (atlowChemi) https://github.com/nodejs/node/pull/48550
+* [b239b06eb8] - child_process: use addAbortListener (atlowChemi) https://github.com/nodejs/node/pull/48550
+* [0325fa44ca] - net: use addAbortListener (atlowChemi) https://github.com/nodejs/node/pull/48550
+* [bb031cbe2c] - dgram: use addAbortListener (atlowChemi) https://github.com/nodejs/node/pull/48550
+* [f6fc2dde95] - stream: use addAbortListener (atlowChemi) https://github.com/nodejs/node/pull/48550
+* [8708e6e5cb] - readline: use addAbortListener (atlowChemi) https://github.com/nodejs/node/pull/48550
+* [d96e62528e] - http2: use addAbortListener (atlowChemi) https://github.com/nodejs/node/pull/48550
+* [ffb1929b6a] - esm: fix emit deprecation on legacy main resolve (Antoine du Hamel) https://github.com/nodejs/node/pull/48664
+* [43e5798283] - tools: update doc to unist-util-select@5.0.0 unist-util-visit@5.0.0 (Node.js GitHub Bot) https://github.com/nodejs/node/pull/48714
+* [41f70568a4] - tools: update lint-md-dependencies to rollup@3.26.2 (Node.js GitHub Bot) https://github.com/nodejs/node/pull/48705
+* [8a725c7d02] - deps: V8: cherry-pick cb00db4dba6c (Keyhan Vakil) https://github.com/nodejs/node/pull/48671
+* [f08341c70f] - src: remove kEagerCompile for CompileFunction (Keyhan Vakil) https://github.com/nodejs/node/pull/48671
+* [0c8539e336] - events: fix bug listenerCount don't compare wrapped listener (yuzheng14) https://github.com/nodejs/node/pull/48592
+* [eece8d755c] - doc: clarify transform._transform() callback argument logic (Rafael Sofi-zada) https://github.com/nodejs/node/pull/48680
+* [0fd7ca52fa] - deps: upgrade npm to 9.8.0 (npm team) https://github.com/nodejs/node/pull/48665
+* [38dee8a1c0] - src: distinguish HTML transferable and cloneable (Chengzhong Wu) https://github.com/nodejs/node/pull/47956
+* [d9438ccbd8] - doc: fix copy node executable in Windows (Yoav Vainrich) https://github.com/nodejs/node/pull/48624
+* [a1fe0d75cd] - doc: drop <b> of v20 changelog (Rafael Gonzaga) https://github.com/nodejs/node/pull/48649
+* [bc8750ec19] - doc: mention git node release prepare (Rafael Gonzaga) https://github.com/nodejs/node/pull/48644
+* [b5e16adb1d] - http2: send RST code 8 on AbortController signal (Devraj Mehta) https://github.com/nodejs/node/pull/48573
+* [c3ab184373] - (SEMVER-MINOR) events: allow safely adding listener to abortSignal (Chemi Atlow) https://github.com/nodejs/node/pull/48596
+* [08638b74ec] - Revert "test: remove test-crypto-keygen flaky designation" (Luigi Pinca) https://github.com/nodejs/node/pull/48652
+* [f802aa0645] - doc: fix 'partial' typo (Colin Ihrig) https://github.com/nodejs/node/pull/48657
+* [56b8de1699] - timers: support Symbol.dispose (Moshe Atlow) https://github.com/nodejs/node/pull/48633
+* [6fda81d4f5] - doc: mention `Navigator` is a partial implementation (Moshe Atlow) https://github.com/nodejs/node/pull/48656
+* [773fde29a9] - child_process: support `Symbol.dispose` (Moshe Atlow) https://github.com/nodejs/node/pull/48551
+* [c47ea21685] - bootstrap: hide experimental web globals with flag kNoBrowserGlobals (Chengzhong Wu) https://github.com/nodejs/node/pull/48545
+* [3ca45cf8c7] - meta: bump actions/checkout from 3.5.2 to 3.5.3 (dependabot[bot]) https://github.com/nodejs/node/pull/48625
+* [99881304c4] - (SEMVER-MINOR) test_runner: add shards support (Raz Luvaton) https://github.com/nodejs/node/pull/48639
+* [74c2d9c8a3] - permission: v8.writeHeapSnapshot and process.report (Rafael Gonzaga) https://github.com/nodejs/node/pull/48564
+* [586fcff061] - src: fix logically dead code reported by Coverity (Mohammed Keyvanzadeh) https://github.com/nodejs/node/pull/48589
+* [2f369ccacf] - tools: update eslint to 8.44.0 (Node.js GitHub Bot) https://github.com/nodejs/node/pull/48632
+* [14e2d69da0] - tools: update lint-md-dependencies to rollup@3.26.0 (Node.js GitHub Bot) https://github.com/nodejs/node/pull/48631
+* [f870bbcf1a] - meta: bump step-security/harden-runner from 2.4.0 to 2.4.1 (dependabot[bot]) https://github.com/nodejs/node/pull/48626
+* [a2a8e31cbc] - src,lib: reducing C++ calls of esm legacy main resolve (Vinicius Lourenço) https://github.com/nodejs/node/pull/48325
+* [329813d04a] - meta: bump ossf/scorecard-action from 2.1.3 to 2.2.0 (dependabot[bot]) https://github.com/nodejs/node/pull/48628
+* [080d536c1e] - meta: bump github/codeql-action from 2.3.6 to 2.20.1 (dependabot[bot]) https://github.com/nodejs/node/pull/48627
+* [22da09155f] - src: deduplicate X509 getter implementations (Tobias Nießen) https://github.com/nodejs/node/pull/48563
+* [5ff46dbb31] - src: fix uninitialized field access in AsyncHooks (Jan Olaf Krems) https://github.com/nodejs/node/pull/48566
+* [d312bd96d3] - test_runner: fixed `test` shorthands return type (Shocker) https://github.com/nodejs/node/pull/48555
+* [1aabfa8732] - doc: fix options order (Luigi Pinca) https://github.com/nodejs/node/pull/48617
+* [651c02cbbc] - http: null the joinDuplicateHeaders property on cleanup (Luigi Pinca) https://github.com/nodejs/node/pull/48608
+* [acf071e9d5] - deps: upgrade to libuv 1.46.0 (Santiago Gimeno) https://github.com/nodejs/node/pull/48618
+* [50477fa353] - test: add missing assertions to test-runner-cli (Moshe Atlow) https://github.com/nodejs/node/pull/48593
+* [1936160c31] - doc: update security release stewards (Rafael Gonzaga) https://github.com/nodejs/node/pull/48569
+* [951da5282c] - lib: merge cjs and esm package json reader caches (Yagiz Nizipli) https://github.com/nodejs/node/pull/48477
+* [9664e66902] - deps: add loong64 config into openssl gypi (Shi Pujin) https://github.com/nodejs/node/pull/48043
+* [3dc2b6e7a4] - deps: update acorn to 8.9.0 (Node.js GitHub Bot) https://github.com/nodejs/node/pull/48484
+* [e8810b91f1] - https: server add `asyncDispose` (atlowChemi) https://github.com/nodejs/node/pull/48548
+* [b7bfb17bef] - http2: server add `asyncDispose` (atlowChemi) https://github.com/nodejs/node/pull/48548
+* [909b43fe3a] - http: server add async dispose (atlowChemi) https://github.com/nodejs/node/pull/48548
+* [893c000046] - test: remove test-crypto-keygen flaky designation (Luigi Pinca) https://github.com/nodejs/node/pull/48575
+* [300634d33d] - test: remove test-timers-immediate-queue flaky designation (Luigi Pinca) https://github.com/nodejs/node/pull/48575
+* [1683e6030e] - test: add Symbol.dispose support to mock timers (Benjamin Gruenbaum) https://github.com/nodejs/node/pull/48549
+* [fe4ac37ecf] - doc: update return type for describe (Shrujal Shah) https://github.com/nodejs/node/pull/48572
+* [0ffad8afc5] - deps: update zlib to 1.2.13.1-motley-f81f385 (Node.js GitHub Bot) https://github.com/nodejs/node/pull/48541
+* [5e5a01b7f0] - deps: update googletest to ec4fed9 (Node.js GitHub Bot) https://github.com/nodejs/node/pull/48538
+* [baa5d8790f] - src: fix Coverity issue regarding unnecessary copy (Yagiz Nizipli) https://github.com/nodejs/node/pull/48565
+* [86ba5bea9e] - (SEMVER-MINOR) tls: add ALPNCallback server option for dynamic ALPN negotiation (Tim Perry) https://github.com/nodejs/node/pull/45190
+* [affc6aca03] - benchmark: add bar.R (Rafael Gonzaga) https://github.com/nodejs/node/pull/47729
+* [900ae1bda7] - doc: run license-builder (github-actions[bot]) https://github.com/nodejs/node/pull/48552
+* [fddd3ffa59] - net: improve network family autoselection handle handling (Paolo Insogna) https://github.com/nodejs/node/pull/48464
+* [9117d45bc1] - tools: update lint-md-dependencies (Node.js GitHub Bot) https://github.com/nodejs/node/pull/48544
+* [995e1fe830] - deps: update minimatch to 9.0.2 (Node.js GitHub Bot) https://github.com/nodejs/node/pull/48542
+* [839c36cecc] - deps: update corepack to 0.19.0 (Node.js GitHub Bot) https://github.com/nodejs/node/pull/48540
+* [32eb4921db] - fs: call the callback with an error if writeSync fails (killa) https://github.com/nodejs/node/pull/47949
+* [d09ff0db70] - fs: remove unneeded return statement (Luigi Pinca) https://github.com/nodejs/node/pull/48526
+* [b38bc9fc89] - permission: handle end nodes with children cases (Rafael Gonzaga) https://github.com/nodejs/node/pull/48531
+* [71d7707792] - fs, stream: initial `Symbol.dispose` and `Symbol.asyncDispose` support (Moshe Atlow) https://github.com/nodejs/node/pull/48518
+* [42d8143ce5] - test: make IsolateData per-isolate in cctest (Joyee Cheung) https://github.com/nodejs/node/pull/48450
+* [e90dadf13e] - doc: add description of autoAllocateChunkSize in ReadableStream (Debadree Chatterjee) https://github.com/nodejs/node/pull/48004
+* [7eafd2f7e8] - child_process: improve spawn performance on Linux (Keyhan Vakil) https://github.com/nodejs/node/pull/48523
+* [ce4102e8a5] - deps: V8: cherry-pick 1a782f6543ae (Keyhan Vakil) https://github.com/nodejs/node/pull/48523
+* [e7a1fab25f] - test: define NAPI_VERSION before including node_api.h (Chengzhong Wu) https://github.com/nodejs/node/pull/48376
+* [78f6952751] - fs: use kResistStopPropagation (Chemi Atlow) https://github.com/nodejs/node/pull/48521
+* [5c1233dfbc] - tools: speedup compilation of js2c output (Keyhan Vakil) https://github.com/nodejs/node/pull/48160
+* [ae9f919880] - build: fix `configure --link-module` (Richard Lau) https://github.com/nodejs/node/pull/48522
+* [d9f394e607] - test: remove unnecessary noop function args to `mustNotCall()` (Antoine du Hamel) https://github.com/nodejs/node/pull/48513
+* [cebbc57ed2] - stream: fix premature pipeline end (Robert Nagy) https://github.com/nodejs/node/pull/48435
+* [578ffe1edb] - lib: reduce url getters on `makeRequireFunction` (Yagiz Nizipli) https://github.com/nodejs/node/pull/48492
+* [9b61322e02] - doc: fix `filename` type in `watch` result (Dmitry Semigradsky) https://github.com/nodejs/node/pull/48032
+* [1746ee20ef] - doc: unnest `mime` and `MIMEParams` from MIMEType constructor (Dmitry Semigradsky) https://github.com/nodejs/node/pull/47950
+* [e26ffe7358] - module: add SourceMap.findOrigin (Isaac Z. Schlueter) https://github.com/nodejs/node/pull/47790
+* [e934003811] - deps: update corepack to 0.18.1 (Node.js GitHub Bot) https://github.com/nodejs/node/pull/48483
+* [4d00da328a] - typings: remove unused primordials (Yagiz Nizipli) https://github.com/nodejs/node/pull/48509
+* [049052e083] - lib: remove duplicated requires in check_syntax (Yagiz Nizipli) https://github.com/nodejs/node/pull/48508
+* [cd28ebbcb7] - deps: update icu to 73.2 (Node.js GitHub Bot) https://github.com/nodejs/node/pull/48502
+* [640a791831] - src: refactor `SplitString` in util (Yagiz Nizipli) https://github.com/nodejs/node/pull/48491
+* [1f4b0c056c] - doc: update security-release-process.md (Rafael Gonzaga) https://github.com/nodejs/node/pull/48504
+* [8e50f84dbb] - doc: add vmoroz to collaborators (Vladimir Morozov) https://github.com/nodejs/node/pull/48527
+* [0d1dfe157e] - http: remove useless ternary in test (geekreal) https://github.com/nodejs/node/pull/48481
+* [b352e0c36a] - tools: update lint-md-dependencies (Node.js GitHub Bot) https://github.com/nodejs/node/pull/48486
+* [350fecbbef] - deps: upgrade npm to 9.7.2 (npm team) https://github.com/nodejs/node/pull/48514
+* [bcd35c334e] - lib: add option to force handling stopped events (Chemi Atlow) https://github.com/nodejs/node/pull/48301
+* [da80964a3d] - (SEMVER-MINOR) test_runner: add initial draft for fakeTimers (Erick Wendel) https://github.com/nodejs/node/pull/47775
+* [0afd6e8902] - test: skip test-runner-watch-mode on IBMi (Moshe Atlow) https://github.com/nodejs/node/pull/48473
+* [a509753a8e] - report: disable js stack when no context is entered (Chengzhong Wu) https://github.com/nodejs/node/pull/48495
+* [44fd53a794] - src: revert IS_RELEASE (Rafael Gonzaga) https://github.com/nodejs/node/pull/48505
+* [49951ec450] - doc: improve inspector.close() description (mary marchini) https://github.com/nodejs/node/pull/48494
+* [e7646a5dc0] - tools: replace sed with perl (Luigi Pinca) https://github.com/nodejs/node/pull/48499
+* [43c3d9f9b4] - doc: link to Runtime Keys in export conditions (Jacob Hummer) https://github.com/nodejs/node/pull/48408
+* [51ca71cb51] - tools: automate update openssl v16 (Marco Ippolito) https://github.com/nodejs/node/pull/48377
+* [8e710c95f0] - http: fix for handling on boot timers headers and request (Franciszek Koltuniuk) https://github.com/nodejs/node/pull/48291
+* [9bdd17230d] - tools: update eslint to 8.43.0 (Node.js GitHub Bot) https://github.com/nodejs/node/pull/48487
+* [6287d4d3f8] - tools: update doc to to-vfile@8.0.0 (Node.js GitHub Bot) https://github.com/nodejs/node/pull/48485
+* [04bd9fd5b3] - tools: prepare tools/doc for to-vfile 8.0.0 (Rich Trott) https://github.com/nodejs/node/pull/48485
+* [ff14b24e12] - lib: fix output message when repl is used with pm (Rafael Gonzaga) https://github.com/nodejs/node/pull/48438
+* [0d725d6fa0] - doc: update fs flags documentation (sinkhaha) https://github.com/nodejs/node/pull/48463
+* [3c35cd4a74] - node-api: provide napi_define_properties fast path (Gabriel Schulhof) https://github.com/nodejs/node/pull/48440
+* [64255b11bd] - doc: revise `error.md` introduction (Antoine du Hamel) https://github.com/nodejs/node/pull/48423
+* [d2dfdd654e] - src: add V8 fast api to `guessHandleType` (Yagiz Nizipli) https://github.com/nodejs/node/pull/48349
+* [5613e223d5] - src: return uint32 for `guessHandleType` (Yagiz Nizipli) https://github.com/nodejs/node/pull/48349
+* [c760ff2aac] - doc: add preveen-stack to triagers (Preveen P) https://github.com/nodejs/node/pull/48387
+* [ee1b6ab498] - lib: remove obsolete deletion of bufferBinding.zeroFill (Chengzhong Wu) https://github.com/nodejs/node/pull/47881
+* [77df1d84c7] - lib: move web global bootstrapping to the expected file (Chengzhong Wu) https://github.com/nodejs/node/pull/47881
+* [f3b713d187] - tools: update lint-md-dependencies (Node.js GitHub Bot) https://github.com/nodejs/node/pull/48417
+* [363eca1033] - doc: refine when file is undefined in test events (Moshe Atlow) https://github.com/nodejs/node/pull/48451
+* [b0e08d178e] - build: sync libuv header change (Jiawen Geng) https://github.com/nodejs/node/pull/48429
+* [60d9aed307] - node-api: implement external strings (Gabriel Schulhof) https://github.com/nodejs/node/pull/48339
+* [ac0853c4ee] - src: make realm binding data store weak (Chengzhong Wu) https://github.com/nodejs/node/pull/47688
+* [7d49619730] - src: remove aliased buffer weak callback (Chengzhong Wu) https://github.com/nodejs/node/pull/47688
+* [3ce303c3ee] - doc: add kvakil to collaborators (Keyhan Vakil) https://github.com/nodejs/node/pull/48449
+* [d402e2ab78] - crypto: update root certificates to NSS 3.90 (Node.js GitHub Bot) https://github.com/nodejs/node/pull/48416
+* [f6a3ec93aa] - deps: update zlib to 1.2.13.1-motley-3ca9f16 (Node.js GitHub Bot) https://github.com/nodejs/node/pull/48413
+* [8d651ce81e] - crypto: remove OPENSSL_FIPS guard for OpenSSL 3 (Richard Lau) https://github.com/nodejs/node/pull/48392
+* [1da9099ac9] - doc: add additional info on TSFN dispatch (Michael Dawson) https://github.com/nodejs/node/pull/48367
+* [5f32914797] - doc: add link for news from security wg (Michael Dawson) https://github.com/nodejs/node/pull/48396
+* [4e0066eaf8] - doc: fix typo in events.md (Darshan Sen) https://github.com/nodejs/node/pull/48436
+* [ed92b1fdaf] - src: handle wasm out of bound in osx will raise SIGBUS correctly (Congcong Cai) https://github.com/nodejs/node/pull/46561
+* [bd7a8087a5] - https: fix connection checking interval not clearing on server close (Nitzan Uziely) https://github.com/nodejs/node/pull/48383
+* [a40a6c890a] - module: implement `register` utility (João Lenon) https://github.com/nodejs/node/pull/46826
+* [d2d4a310f1] - typings: fix JSDoc in ESM loader modules (Antoine du Hamel) https://github.com/nodejs/node/pull/48424
+* [c21fe3ad87] - test_runner: make `--test-name-pattern` recursive (Moshe Atlow) https://github.com/nodejs/node/pull/48382
+* [8cc14387a2] - lib: fix blob.stream() causing hanging promises (Debadree Chatterjee) https://github.com/nodejs/node/pull/48232
+* [2c6698b4db] - lib: add support for inherited custom inspection methods (Antoine du Hamel) https://github.com/nodejs/node/pull/48306
+* [0c875bbfc8] - repl: display dynamic import variant in static import error messages (Hemanth HM) https://github.com/nodejs/node/pull/48129
+* [718f62bfcf] - bootstrap: unify snapshot builder and embedder entry points (Joyee Cheung) https://github.com/nodejs/node/pull/48242
+* [ad0bbaf34a] - test: add missing <algorithm> include for std::find (Sam James) https://github.com/nodejs/node/pull/48380
+* [4ff55ec2e1] - bootstrap: simplify initialization of source map handlers (Joyee Cheung) https://github.com/nodejs/node/pull/48304
+* [d102f18957] - src: implement constants binding directly (Joyee Cheung) https://github.com/nodejs/node/pull/48186
+* [e1fa85133f] - src: implement natives binding without special casing (Joyee Cheung) https://github.com/nodejs/node/pull/48186
+* [6a3403cded] - tools: update create-or-update-pull-request-action (Richard Lau) https://github.com/nodejs/node/pull/48398
+* [da1c9e3ecb] - tools: update eslint-plugin-jsdoc (Richard Lau) https://github.com/nodejs/node/pull/48393
+* [8c8e7e9e2c] - deps: upgrade npm to 9.7.1 (npm team) https://github.com/nodejs/node/pull/48378
+* [9dc2d1b964] - test: fix flaky test-watch-mode (Moshe Atlow) https://github.com/nodejs/node/pull/48147
+* [077fd7d83d] - src: add missing to_ascii method in dns queries (Daniel Lemire) https://github.com/nodejs/node/pull/48354
+* [9c5efdd5e2] - test: fix `test-net-autoselectfamily` for kernel without IPv6 support (Livia Medeiros) https://github.com/nodejs/node/pull/48265
+* [1d1685e6fd] - deps: update simdutf to 3.2.14 (Node.js GitHub Bot) https://github.com/nodejs/node/pull/48344
+* [f2670a61e0] - url: conform to origin getter spec changes (Yagiz Nizipli) https://github.com/nodejs/node/pull/48319
+* [e6e011097e] - test: update url web-platform tests (Yagiz Nizipli) https://github.com/nodejs/node/pull/48319
+* [11bd9f9224] - deps: update ada to 2.5.1 (Node.js GitHub Bot) https://github.com/nodejs/node/pull/48319
+* [23c7f65ead] - test_runner: refactor coverage report output for readability (Damien Seguin) https://github.com/nodejs/node/pull/47791
+* [72ba09905a] - lib: reduce URL invocations on http2 origins (Yagiz Nizipli) https://github.com/nodejs/node/pull/48338
+* [9d936fa250] - module: reduce url invocations in esm/load.js (Yagiz Nizipli) https://github.com/nodejs/node/pull/48337
+* [f100732575] - doc: run license-builder (github-actions[bot]) https://github.com/nodejs/node/pull/48336
+* [a929522375] - deps: update zlib to 982b036 (Node.js GitHub Bot) https://github.com/nodejs/node/pull/48327
+* [d15652e959] - test: ignore the copied entry_point.c (Luigi Pinca) https://github.com/nodejs/node/pull/48297
+* [f351c8a6c1] - test: refactor test-gc-http-client-timeout (Luigi Pinca) https://github.com/nodejs/node/pull/48292
+* [c54115391f] - tools: add version update to external dependencies (Andrea Fassina) https://github.com/nodejs/node/pull/48081
+* [1b4ce6981d] - tools: update eslint to 8.42.0 (Node.js GitHub Bot) https://github.com/nodejs/node/pull/48328
+* [0919b5e277] - tools: disable jsdoc/no-defaults rule (Luigi Pinca) https://github.com/nodejs/node/pull/48328
+* [e30e71665c] - test: update encoding web-platform tests (Yagiz Nizipli) https://github.com/nodejs/node/pull/48320
+* [3323528542] - test: update FileAPI web-platform tests (Yagiz Nizipli) https://github.com/nodejs/node/pull/48322
+* [0e92bf1b66] - benchmark: refactor crypto oneshot (Filip Skokan) https://github.com/nodejs/node/pull/48267
+* [41f8abc6b5] - build: update action to close stale PRs (Michael Dawson) https://github.com/nodejs/node/pull/48196
+* [7f9fd76f25] - test: update user-timing web-platform tests (Yagiz Nizipli) https://github.com/nodejs/node/pull/48321
+* [6327d4582a] - benchmark: add crypto.create*Key (Filip Skokan) https://github.com/nodejs/node/pull/48284
+* [0b3fcfcf35] - quic: fix typo in endpoint.h (Tobias Nießen) https://github.com/nodejs/node/pull/47911
+* [109545a8fa] - test: fix `test-net-autoselectfamily` for kernel without IPv6 support (Livia Medeiros) https://github.com/nodejs/node/pull/45856
